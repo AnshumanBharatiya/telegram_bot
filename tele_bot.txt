@@ -1,0 +1,133 @@
+<!-- 
+https://api.telegram.org/bot1931048753:AAGvtsbxNWJ_8zryDQhXRhUORAnI85kxv4c/getMe
+https://api.telegram.org/bot1931048753:AAGvtsbxNWJ_8zryDQhXRhUORAnI85kxv4c/sendMessage
+ -->
+
+
+<!-- telegram main link for apis and bot -  https://core.telegram.org/bots/api -->
+
+
+<!-- bot reply to user through this link -->
+<!--  https://api.telegram.org/bot1931048753:AAGvtsbxNWJ_8zryDQhXRhUORAnI85kxv4c/sendMessage?chat_id=920619762&text=how may i help you -->
+
+
+
+<!-- (bot) get an update data through this link, which are send by user to the bot-->
+<!-- https://api.telegram.org/bot1931048753:AAGvtsbxNWJ_8zryDQhXRhUORAnI85kxv4c/getUpdates -->
+
+<!-- Use this token to access the HTTP API:
+1931048753:AAGvtsbxNWJ_8zryDQhXRhUORAnI85kxv4c -->
+
+
+<!-- Webhook use for reply automatic -  bot reply user automatically-->
+
+<!-- setWebhook -->
+<!-- https://api.telegram.org/bot1931048753:AAGvtsbxNWJ_8zryDQhXRhUORAnI85kxv4c/setWebhook?url=https://github.com/AnshumanBharatiya/telegram_bot/blob/main/index.php
+
+ -->
+
+
+<!-- getWebhookInfo -->
+<!-- https://api.telegram.org/bot1931048753:AAGvtsbxNWJ_8zryDQhXRhUORAnI85kxv4c/getWebhookInfo -->
+
+
+<!-- deleteWebhook -->
+<!-- https://api.telegram.org/bot1931048753:AAGvtsbxNWJ_8zryDQhXRhUORAnI85kxv4c/deleteWebhook -->
+
+<!-- https://api.telegram.org/bot1931048753:AAGvtsbxNWJ_8zryDQhXRhUORAnI85kxv4c/getUpdates -->
+
+
+
+student_result - bot
+-----------------------------
+name - StudentResult
+username - StudentResult21_Bot (end with 'bot')
+search bot name - @StudentResult21_Bot
+token of this bot - 1976508376:AAE7NlD2kbBsN4Phktu9gNxFkltTnr-G0Jg
+
+
+create index.php in real_server and get the path like this 
+
+path - https://anshumanbharatiya.000webhostapp.com/student_result/index.php
+
+
+setWebhook - (use above 'token' and above 'index.php' path)
+
+    https://api.telegram.org/bot1976508376:AAE7NlD2kbBsN4Phktu9gNxFkltTnr-G0Jg/setWebhook?url=https://anshumanbharatiya.000webhostapp.com/student_result/index.php
+
+getWebhookInfo
+
+    https://api.telegram.org/bot1976508376:AAE7NlD2kbBsN4Phktu9gNxFkltTnr-G0Jg/getWebhookInfo
+
+
+In server create database
+--------------------------------
+DB Name - id17446327_asd
+DB User - id17446327_asd1
+DB Password - @Anshuman2515
+DB Host - localhost
+
+
+create table - marks and student.
+marks.sql
+student.sql
+
+then newbot/studentresult.php
+
+Short Link
+--------------------
+name - ab_short_link
+username - ab_short_link_bot (end with 'bot')
+search bot name - @ab_short_link_bot
+token - 1957916782:AAGr-ZbsYpgMvVV5mV_o_Jc3FG0d_MYFtYQ
+
+
+create index.php in real_server and get the path like this 
+
+path - https://anshumanbharatiya.000webhostapp.com/short_link/index.php
+
+setWebhook - (use above 'token' and above 'index.php' path)
+
+    https://api.telegram.org/bot1957916782:AAGr-ZbsYpgMvVV5mV_o_Jc3FG0d_MYFtYQ/setWebhook?url=https://anshumanbharatiya.000webhostapp.com/short_link/index.php
+
+getWebhookInfo
+
+    https://api.telegram.org/bot1957916782:AAGr-ZbsYpgMvVV5mV_o_Jc3FG0d_MYFtYQ/getWebhookInfo
+
+
+create account in cutt.ly and get api key then 
+cutt.ly api key  -  e0ceefe461888631ce4c7e45a020419cb6bf1 
+
+then goto documentation copy this code
+
+$url = urlencode('[URL_YOU_WANT_SHORTEN]');
+$json = file_get_contents("https://cutt.ly/api/api.php?key=[API_KEY]&short=$url&name=[CUSTOM_URL_ALIAS]");
+$data = json_decode ($json, true);
+var_dump($data);
+
+
+create table
+no require of database
+
+then newbot/short_link.php
+
+
+wiki details bot
+----------------------
+name - ab_wiki
+username - ab_wiki_bot (end with 'bot')
+search bot name - @ab_wiki_bot
+token - 1938488105:AAH6WnaqB34G9-mZNX-SNtEtLNa1neoVpF4
+
+
+create index.php in real_server and get the path like this 
+
+path - https://anshumanbharatiya.000webhostapp.com/wiki_details/index.php
+
+setWebhook - (use above 'token' and above 'index.php' path)
+
+    https://api.telegram.org/bot1938488105:AAH6WnaqB34G9-mZNX-SNtEtLNa1neoVpF4/setWebhook?url=https://anshumanbharatiya.000webhostapp.com/wiki_details/index.php
+
+getWebhookInfo
+
+    https://api.telegram.org/bot1938488105:AAH6WnaqB34G9-mZNX-SNtEtLNa1neoVpF4/getWebhookInfo
